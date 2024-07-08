@@ -4,3 +4,6 @@
 
 #define UNIX 1
 #define LoadFunc
+
+#define CComp "cc"
+#define COpts "-I/usr/openwin/include -ldl"

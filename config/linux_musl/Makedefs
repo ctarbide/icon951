@@ -9,11 +9,11 @@
 #  GDIR     directory of graphics helper library
 
 CC = gcc
-CFLAGS = -O
+CFLAGS = -O -D_MUSL
 CFDYN = -fPIC
 RLINK = -Wl,-E
 RLIBS = -lm -ldl
-TLIBS =
-XLIBS = -L/usr/X11R6/lib -lX11
+TLIBS = -lpthread
+XLIBS = -lX11
 XPMDEFS = -DZPIPE
 GDIR = xpm
