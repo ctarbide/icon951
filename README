@@ -1,3 +1,22 @@
+
+This repository starts with the [1] release from 2013-06-05.
+
+Why? Historical relevance and (down?)stepping stone to backport [4].
+
+Canonical location for this repository is [2].
+
+See [3] for backport acknowledgments
+
+- [1]: http://www2.cs.arizona.edu/icon/ftp/historic/v951.tgz
+
+- [2]: https://github.com/ctarbide/icon951
+
+- [3]: doc/relnotes.htm
+
+- [4]: https://github.com/ctarbide/icon943
+
+****************************************************************
+
 Icon 9.5.1 README
 
 This directory contains the source code for Version 9.5.1 of the
